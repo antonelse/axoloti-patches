@@ -30,6 +30,10 @@ axoloti-patches/
     └── ae_AxoGlitch_v*.axp
 ```
 
+## License
+
+GPL-3.0. See [LICENSE](./LICENSE). AnDrone derives from Guilherme Martins' Drone Engine, which is also GPL-3.0.
+
 ## Notes
 
 Patch files are Axoloti patcher projects (`.axp`). Open them in the Axoloti patcher and upload to the board.
