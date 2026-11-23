@@ -135,28 +135,39 @@ The possible controls are nearly endless. For simplicity, the mapping is divided
 - [10] [Peeps Music Box by s8jfou](https://www.s8jfou.com/synth.html) | [Video](https://www.youtube.com/watch?v=w7IrjJ7MmoY)
 - [11] [M-Audio Evolution UC33e Manual](https://www.strumentimusicali.net/manuali/M_AUDIO_UC-33e_EN.pdf)
 
-## TODO List 📝
+## TODO
 
-**Control / MIDI**
-- [ ] Understand MSB/LSB parameters to get higher-resolution control
-- [ ] Add MIDI clock input to sync the LFOs
-- [ ] Make use of the 2 unused selectors on the Axoloti board
-- [ ] Consider adding play/pause/fwd buttons (bottom right) for burst-like modulation
+**Controls and mapping**
+- [ ] Give up the Osc 3 and Osc 6 controls to make room for a master volume control on every page
+- [ ] Replace the LFO rate knob in the timbre section with an oscillator waveform selector
+- [ ] Replace the LFO timbre offset with an LFO modulation waveform selector
+- [ ] Use the free F8 control for cross-FM modulation between Osc 3 (or 6) and Osc 1 and 2
+- [ ] Map a button to the scale switch and to change scale
+- [ ] Rescale the scale selector to 127 values
+- [ ] LFO waveform type switch: marked done, implementation still to be completed
 
-**Sound Design**
-- [ ] Add an LFO with multiple square waveforms
-- [ ] Add crunch/saturation on the delay path
-- [ ] Add a soft-clipping stage after the filter stage or the summing stage
-- [ ] Improve the compressor control (more informative feedback, e.g. gain reduction metering)
+**Sound and behaviour**
+- [ ] Add MIDI keyboard input and polyphony
+- [ ] Avoid clipping on the summing stage
+- [ ] Filter at 0 turns the LFO off on the filter
+- [ ] Add the Colundi scale (details to be added)
+- [ ] Add crunch and grit to the delay audio path
+- [ ] Add ring modulation
+- [ ] Understand subpatch behaviour (define IN and OUT)
 
-**I/O**
-- [ ] Add a second piezo on the R channel for more modulation sources
+**Input and sync**
+- [ ] Add MIDI clock input to sync LFO and divider (see the Community thread)
+- [ ] Use one LED for the MIDI clock tempo
+- [ ] Add two piezo microphone inputs as filter modulation, with configurable routing (to be decided)
+- [ ] Alternative to the two piezos: an input that routes to the reverb when on, and to the normal reverb path when off
 
-**UI / Feedback**
-- [ ] LEDs are currently linked only to the first LFO signal — explore other uses
+**Carried over from the previous list**
+- [ ] Make use of the play, pause and forward buttons (bottom right) for burst-like modulation
+- [ ] Improve compressor control, with gain reduction feedback
+- [ ] Optimise CPU usage
 
-**Performance**
-- [ ] Optimize CPU usage
+**Reference**
+- https://www.cymaforma.com/alt/manual
 
 ## AxoLove ❤️
 ![axoloti_board](./imgs/axoloti_core_v1.2.jpg)  

@@ -29,8 +29,9 @@ axoloti-patches/
 
 ## TODO
 
-- [ ] AxoGlitch: write the guide (`axoglitch/GUIDE.md`) and changelog
+- [ ] AxoGlitch: write the guide and changelog
 - [ ] AxoGlitch: write the nanoPAD mapping
+- [ ] AxoGlitch: GlitchBeast effects with MIDI tempo sync
 - [ ] AnDrone: open items listed in [`androne/GUIDE.md`](./androne/GUIDE.md)
 - [ ] Ksoloti: test AnDrone and AxoGlitch, or keep them marked as Axoloti Core only
 
