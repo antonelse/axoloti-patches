@@ -90,6 +90,8 @@ OSC 6 is noise, so this doesn't apply to it.
 
 ## UC33e Mapping Configuration 🎹
 
+The full UC33e mapping (CC table, presets and channel allocation) is documented in the [MIDI-mappings-ae](https://github.com/antonelse/MIDI-mappings-ae) repository. The summary below is the AnDrone side of that mapping.
+
 The possible controls are nearly endless. For simplicity, the mapping is divided into multiple pages (presets P23, P24 and P25 on the UC33e):
 
 - **P23:** Source + Modulation + Filter + Mix sections for Osc 1, 2, 3
