@@ -24,6 +24,7 @@ axoloti-patches/
 │   ├── GUIDE.md        overview, patch analysis, mixer, scale/key
 │   ├── CHANGELOG.md
 │   ├── patch/          released .axp files
+│   ├── extra/          original Guilherme Martins patch and mapping images
 │   └── imgs/
 └── axoglitch/
     └── ae_AxoGlitch_v*.axp
