@@ -13,7 +13,7 @@ Patches for the [Axoloti](https://ksoloti.github.io/2-background.html) DSP envir
 
 ## Controllers
 
-- **AnDrone** is controlled from an M-Audio Evolution UC33e. The mapping, presets and CC table are in [MIDI-mappings-ae](https://github.com/antonelse/MIDI-mappings-ae) (presets P23–P25).
+- **AnDrone** is controlled from an M-Audio Evolution UC33e. The mapping, presets and CC table are in [MIDI-mappings-ae](https://github.com/antonelse/uc33e-mappings) (presets P23–P25).
 - **AxoGlitch** is controlled from a Korg nanoPAD. Its mapping is documented in `axoglitch/`.
 
 ## Repository layout
